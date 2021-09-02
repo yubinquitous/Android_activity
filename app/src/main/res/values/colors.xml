@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkgray">#090909</color>
+    <color name="darkgray2">#131313</color>
+    <color name="dark_yellow">#f2d06c</color>
+    <color name="dark_yellow2">#E1BC4F</color>
+
+    <color name="item_friend_bg">#FFFFFFFF</color>
+    <color name="item_friend_nickname">#FF000000</color>
+    <color name="item_friend_state_msg">#353535</color>
+    <color name="item_friend_music">#353535</color>
+    <color name="item_friend_music_bg">#54C159</color>
+
+
+</resources>

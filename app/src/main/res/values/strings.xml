@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ST_w3_activity</string>
+
+    <string name="friend_cd_profile">프로필사진</string>
+    <string name="item_friend_nickname">닉네임~</string>
+    <string name="item_friend_state_msg">상태메시지</string>
+    <string name="item_friend_music">music</string>
+
+    <string name="book_cd_cover">책커버사진</string>
+</resources>

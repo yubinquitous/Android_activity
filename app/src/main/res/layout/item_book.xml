@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp">
+
+        <ImageView
+            android:id="@+id/item_book_cover_iv"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="7dp"
+            android:contentDescription="@string/book_cd_cover" />
+
+        <TextView
+            android:id="@+id/item_book_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/darkgray"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="90dp" />
+
+        <TextView
+            android:id="@+id/item_book_author_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/darkgray2"
+            android:maxLines="2"
+            android:ellipsize="end"
+            app:layout_constraintTop_toBottomOf="@id/item_book_title_tv"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="90dp" />
+
+        <TextView
+            android:id="@+id/item_book_publisher_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="2dp"
+            android:textSize="17sp"
+            android:textColor="@color/darkgray2"
+            android:maxLines="2"
+            android:ellipsize="end"
+            app:layout_constraintTop_toBottomOf="@id/item_book_author_tv"
+            app:layout_constraintStart_toStartOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--    <TextView android:id="@+id/year" -->
+    <!--        android:layout_width="match_parent" -->
+    <!--        android:layout_height="wrap_content"/>-->
+    <!--    <TextView android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content"/>-->
+</LinearLayout>
